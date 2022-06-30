@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import React from "react";
 import logo from '../../assets/logo2.png';
+import '../../App.css';
 
 const Navbar = () => {
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
 const Nav = styled.div`
     top: 3%;
     position: absolute;
-    padding: 0 2rem;
+    padding: 0 3rem;
     display: flex;
     align-items: center;
     justify-content: baseline;
@@ -33,15 +34,19 @@ const Nav = styled.div`
 `;
 
 const MenuLink = styled.a`
-    padding: 0rem 6rem;
+    padding: 0rem 3rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: white;
+    font-size: larger;
+    font-family: 'Cairo';
 `;
 
 const Menu = styled.div`
     display: flex;
+    top: 0.3rem;
+    left: 15rem;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -54,7 +59,7 @@ const Menu = styled.div`
 
 const Contactplacement = styled.div`
     display: flex;
-    left: 8rem;
+    left: 15rem;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -73,6 +78,7 @@ const Contact = styled.button`
     height: 50px;
     width: 150px;
     border-radius: 10px;
+    font-family: 'Ubuntu';
     font-size: 1.2em;
     font-size: 20;
 `;

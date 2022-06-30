@@ -8,3 +8,18 @@ video {
     height: 100%;
     object-fit: cover;
 }
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Lato'), url(./fonts/Ubuntu-Medium.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: local('Lato'), url(./fonts/Cairo-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Lato'), url(./fonts/GreycliffCF-Bold.ttf) format('opentype');
+}

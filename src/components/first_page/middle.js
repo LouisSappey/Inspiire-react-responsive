@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import '../../App.css';
 
 const Middle = () => {
     return (
@@ -74,6 +75,7 @@ const Middletext = styled.a`
     color: white;
     flex-direction: column;
     font-size: 40px;
+    font-family: 'Greycliff CF';
 `;
 
 const Decouvrirtext = styled.button`
@@ -82,6 +84,7 @@ const Decouvrirtext = styled.button`
     height: 50px;
     width: 140px;
     border-radius: 10px;
+    font-family: 'Ubuntu';
 `;
 
 

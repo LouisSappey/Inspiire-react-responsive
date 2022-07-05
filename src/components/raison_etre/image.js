@@ -16,7 +16,7 @@ const Posarbre = styled.div`
     position: absolute;
     width: 819px;
     height: 1000px;
-    margin-left: 57%;
+    margin-left: 56.8%;
     margin-top: -33%;
     background-image: url(${arbre});
     background-size: cover;

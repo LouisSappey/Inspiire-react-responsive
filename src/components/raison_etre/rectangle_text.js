@@ -61,7 +61,7 @@ const PosRectanglethird = styled.div`
     width: 20%;
     height: 226.8px;
     margin-left: 35%;
-    margin-top: -25.6%;
+    margin-top: -25.9%;
     border: 3px;
     border-radius: 20px;
     background: linear-gradient(122.69deg, rgba(215, 72, 158, 0.1) 2.38%, rgba(153, 58, 163, 0.1) 40.51%, rgba(56, 36, 171, 0.1) 100%);

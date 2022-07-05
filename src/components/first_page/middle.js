@@ -5,15 +5,15 @@ import '../../App.css';
 const Middle = () => {
     return (
         <div>
-        <Middlepos>
-            <Middletext>NOTRE MISSION DÉPASSE</Middletext>
-        </Middlepos>
-        <Middlepossecond>
-            <Middletext>LA CRÉATION D’APPLICATIONS WEB & MOBILE</Middletext>
-        </Middlepossecond>
-        <Decouvrir>
-            <Decouvrirtext>Découvrir</Decouvrirtext>
-        </Decouvrir>
+            <Middlepos>
+                <Middletext>NOTRE MISSION DÉPASSE</Middletext>
+            </Middlepos>
+            <Middlepossecond>
+                <Middletext>LA CRÉATION D’APPLICATIONS WEB & MOBILE</Middletext>
+            </Middlepossecond>
+            <Decouvrir>
+                <Decouvrirtext href="">Découvrir</Decouvrirtext>
+            </Decouvrir>
         </div>
     );
 };
@@ -21,25 +21,18 @@ const Middle = () => {
 const Decouvrir = styled.div`
     position: absolute;
     top: 45rem;
-    left: 55rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
     @media (max-width: 768px) {
         top: 50rem;
-        left: 15rem;;
     }
 `;
 
 const Middlepos = styled.div`
     position: absolute;
     top : 35rem;
-    left: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 50%;
+    text-align: center;
     @media (max-width: 768px) {
         left: 0rem;
         overflow: hidden;
@@ -51,12 +44,9 @@ const Middlepos = styled.div`
 
 const Middlepossecond = styled.div`
     position: absolute;
-    top : 37.5rem;
-    left: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    top : 38.5rem;
+    width: 76.67%;
+    text-align: center;
     @media (max-width: 768px) {
         overflow: hidden;
         left: 0rem;
@@ -71,10 +61,9 @@ const Middletext = styled.a`
     cursor: pointer;
     text-align: justify;
     text-decoration: none;
-    font-size: 30px;
     color: white;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Greycliff CF';
 `;
 

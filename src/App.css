@@ -16,10 +16,15 @@ video {
 
 @font-face {
     font-family: 'Cairo';
-    src: local('Lato'), url(./fonts/Cairo-Regular.ttf) format('opentype');
+    src: local('Lato'), url(./fonts/Cairo-Bold.ttf) format('opentype');
 }
 
 @font-face {
     font-family: 'Greycliff CF';
     src: local('Lato'), url(./fonts/GreycliffCF-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Lato'), url(./fonts/NunitoSans-SemiBold.ttf) format('opentype');
 }

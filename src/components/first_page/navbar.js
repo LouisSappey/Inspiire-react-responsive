@@ -26,6 +26,7 @@ const Navbar = () => {
 const Nav = styled.div`
     top: 3%;
     position: absolute;
+    /* background-color: #11ffee00; */
     padding: 0 3rem;
     display: flex;
     align-items: center;

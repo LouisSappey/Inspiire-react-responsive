@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import '../../App.css';
+import Double_arrow from '../../assets/double_arrow.png';
 
 const Middle = () => {
     return (
@@ -14,9 +15,25 @@ const Middle = () => {
             <Decouvrir>
                 <Decouvrirtext href="">Découvrir</Decouvrirtext>
             </Decouvrir>
+            <PosDoubleArrow>
+                <DoubleArrow src={Double_arrow}/>
+            </PosDoubleArrow>
         </div>
     );
 };
+
+const PosDoubleArrow = styled.div `
+    position: absolute;
+    top: 85%;
+    width: 94%;
+    text-align: center;
+    align-items: center;
+`;
+
+const DoubleArrow = styled.img `
+    position: absolute;
+    height: 80px;
+`;
 
 const Decouvrir = styled.div`
     position: absolute;

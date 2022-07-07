@@ -5,7 +5,7 @@ import two_point from '../../assets/deux-points.png'
 
 const Titrecontact = () => {
     return (
-        <div>
+        <div id='contacter'>
             <Twopoint>
                 <img src={two_point} height={163.5} width={325} alt=""/>
             </Twopoint>

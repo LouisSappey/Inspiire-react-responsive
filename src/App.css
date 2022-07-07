@@ -28,3 +28,13 @@ video {
     font-family: 'Nunito Sans';
     src: local('Lato'), url(./fonts/NunitoSans-SemiBold.ttf) format('opentype');
 }
+
+@font-face {
+    font-family: 'Lora';
+    src: local('Lato'), url(./fonts/Lora-SemiBold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Savoye LET';
+    src: local('Lato'), url(./fonts/Savoye-LET-Plain1.0.woff) format('opentype');
+}

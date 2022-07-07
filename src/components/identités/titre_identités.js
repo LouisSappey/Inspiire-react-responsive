@@ -5,7 +5,7 @@ const Titreidentités = () => {
     return (
         <div>
             <Postitle>
-                <Texttitle>NOTRE IDENTITÉ </Texttitle>
+                <Texttitle id="identites">NOTRE IDENTITÉ </Texttitle>
             </Postitle>
             <Postext>
                 <Text>Nous pensons que la technologie est porteuse de <br/>progrès à partir du moment où nous plaçons l’Humain <br/>au cœur du processus</Text>
